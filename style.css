@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(102, 0, 143);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(102, 0, 143);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main{
+    background: url(./img/toko.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+ font-size: 4rem;
+ font-weight: 700;
+ color: beige;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(102, 0, 143);
+    color: aliceblue;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.btn1:hover{
+    background-color: rgb(41, 3, 55);
+    transition: 0.6s ;
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: 15px 14px 10px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 15px 14px 10px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 15px 14px 10px -7px rgba(0,0,0,0.75);
+transition: 0.7s;
+}
+.foto{
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(./img/pria.jpg)no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.foto h1,.foto h6{
+    font-family: "Playwrite DK Uloopet", cursive;
+}
+#newsletter{
+    background-color: rgba(179, 179, 179, 0.05);
+}
+#newsletter p{
+    max-width: 600px;
+}
+#newsletter .input-group{
+    max-width: 500px;
+}
+#newsletter .form-control{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#newsletter .btn{
+    background-color: rgb(102, 0, 143);
+    color: aliceblue;
+    border-color: var(--pink);
+}
+#newsletter .btn:hover{
+    background-color: rgb(41, 3, 55);
+    transition: 0.6s;
+    border-color: #8807af8d;
+}
+
+/* footer */
+
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
